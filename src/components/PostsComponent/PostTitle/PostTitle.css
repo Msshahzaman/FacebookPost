@@ -1,0 +1,107 @@
+*{
+padding: 0%;
+margin: 0%;
+
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .main-container{
+    position: relative;
+
+    width: 80%;
+    height: 100vh;
+    margin-left: 15%;
+    background-color: rgb(69, 10, 10);
+    justify-content: center;
+    align-items: center;
+}  */
+
+.card{
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 20px;
+    /* margin-bottom: 30px; */
+    background-color: rgb(245, 238, 238);
+    border: 2px solid black;
+}
+
+.pro-pic{
+    position: relative;
+    width: 50px;
+    top: 5px;
+    border-radius: 50px;
+    display: flex;
+    left: 10px;
+    font-size: 20px;
+
+}
+a{
+    position: relative;
+    display: inline-block;
+    top: -40px;
+    margin-left: 17.5%;
+    color: black;
+
+}
+p{
+
+    position: relative;
+top: -35px;
+    left: 70px;
+    
+}
+.icons{
+
+margin-left: 80px;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.action-btn {
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+}
+
+.action-btn:hover {
+    color: #007bff;
+}
+.comment-btn:hover {
+    color: #5b5e62;
+}
+.share-btn:hover {
+    color: #1c9d05;
+}
+
+
+.like{
+    margin-left: -55px;
+    margin-right: 90px;
+    margin-bottom: 7px;
+
+}
+.cmnt{
+    margin-left: -15px;
+    
+    margin-right: 90px;
+}
+.share{
+    margin-left: -20px;
+
+}
+.api-items{
+    margin-left: 15px;
+    margin-top: -30px;
+    position: relative;
+}
+
+
